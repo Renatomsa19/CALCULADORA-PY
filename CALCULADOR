@@ -18,7 +18,7 @@ print("2. subtracao")
 print("3. divisao")
 print("4. multiplicao")
 
-#input: usuario inserir algo
+#usuario inserir algo
 
 escolha= input("escolhas os numeros 1/2/3/4:")
 
