@@ -1,0 +1,45 @@
+#adicao
+
+def add(x, y):
+    return x + y
+
+def subtra (x, y):
+    return x - y
+
+def divid (x, y):
+    return x / y
+
+def multi (x,y):
+    return x*y
+
+print("Selecione o número da operação desejada:")
+print("1. Adição")
+print("2. subtracao")
+print("3. divisao")
+print("4. multiplicao")
+
+#input: usuario inserir algo
+
+escolha= input("escolhas os numeros 1/2/3/4:")
+
+#numeros de somas dada pelo usuario
+num1= float(input("Digite o primeiro número: "))
+num2= float(input("Digite o primeiro número: "))
+
+if escolha == "1":
+    print( num1,"+",num2,"=", add(num1, num2))
+
+if escolha == "2":
+    print(num1, "-", num2,"=", subtra(num1, num2))
+
+if escolha=="3":
+    if num2 == 0:
+        print("Não pode dividir por zero. BURRO")
+    else:
+        print(num1, "/", num2, "=", divid(num1, num2))
+
+if escolha == "4":
+    print(num1, "x", num2,"=", multi(num1, num2))
+else:
+    print("numero errado")
+
